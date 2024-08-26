@@ -1,5 +1,7 @@
 //  https://codeforces.com/contest/2001/problem/A 
 
+/*not solved*/
+
 #include <iostream>
 using namespace std;
 

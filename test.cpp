@@ -1,14 +1,15 @@
-#include <iostream>
+// https://codeforces.com/problemset/problem/1287/A
+
+#include<iostream>
 using namespace std;
 
 int main()
 {
-    while (1)
-    {
-        int num;
-        cin>>num;
-        cout << num % 10;
-    }
+    int g ;
+    cin>>g ;
 
-    return 0;
+    cout<<g/2;
+
+
+    return 0 ; 
 }
