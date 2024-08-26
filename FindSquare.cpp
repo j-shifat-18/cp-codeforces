@@ -34,7 +34,7 @@ int main()
     row=row+1-sqrt(black);
     col=col+1-sqrt(black);
 
-   // cout<<row<<" "<<col<<" "<<centre<<'\n';
+   
 
 
 
