@@ -1,32 +1,53 @@
-#include<iostream>
-using namespace std; 
+// https://codeforces.com/problemset/problem/931/A
+/*
+#include <iostream>
+#include <cmath>
+using namespace std;
 int main()
 {
-    int t ; 
-    cin>>t; 
-    while(t--)
-    {
-        int a , b ;
-        cin >>a>>b;
+    int a, b;
+    cin >> a >> b;
 
-        if(a%2!=0)
+    int sub = abs(a - b) - 1;
+    int count = 0;
+
+    if (sub == 1)
+    {
+        cout << 2;
+    }
+    else
+    {
+        for (int i = 1; i <= (sub / 2) ; i++)
         {
-            cout<<"NO\n";
+                count = count + i * 2;
         }
-        else if(a==0 && b%2!=0)
-        {
-            cout<<"NO\n";
-        }
-        else 
-        {
-            int sum=a+b*2;
-            if(sum%2==0)
-            {
-                cout<<"YES\n";
-            }
-            else cout<<"NO\n";
-        }
+
+        cout << count;
     }
 
-    return 0 ;
+    return 0;
+}
+
+*/
+
+// https://codeforces.com/problemset/problem/931/A
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    int count=0; 
+    
+        for (int i = 1; i <= (a/2) ; i++)
+        {
+                count = count + i * 2;
+        }
+
+        cout << count;
+    
+
+    return 0;
 }
