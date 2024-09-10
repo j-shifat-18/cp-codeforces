@@ -34,10 +34,6 @@ int main()
     row=row+1-sqrt(black);
     col=col+1-sqrt(black);
 
-   
-
-
-
     cout << centre+row << " " << centre+col;
 
     return 0;

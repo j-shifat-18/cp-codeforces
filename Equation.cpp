@@ -11,9 +11,9 @@ int main()
 
     if(n==1)
     {
-        cout<<8<<" "<<9;
+        cout<<9<<" "<<8;
     }
-    else cout<<n*2<<" "<<n*3;
+    else cout<<n*3<<" "<<n*2;
 
 
     return 0 ; 
