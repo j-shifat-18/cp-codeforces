@@ -31,7 +31,7 @@ int main()
         }
     }
 
-    //cout<<a<<" "<<b<<" "<<c<<"\n";
+   
     
     int count=0;
     if((b-a)<d)
