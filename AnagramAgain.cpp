@@ -37,6 +37,7 @@ int main()
 
         for(int i = 0 ; i < m ; i++)
         {
+            int count = 0 ;
             for(int j = 0 ; j < n ; j++)
             {
                 for(int k = 0 ; k < s[j].size() ; k++)
